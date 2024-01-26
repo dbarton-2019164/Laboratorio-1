@@ -4,20 +4,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background-color: #081b29;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #DAFFFB; 
 }
-
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background-color: #04364A;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,23 +32,25 @@ body {
 
 .logo {
     font-size: 25px;
-    color: #DAFFFB;
+    color: #081b29;
     text-decoration: none;
     font-weight: 600;
 }
 
-.nabvar a {
+.navbar a {
     font-size: 18px;
-    color: #DAFFFB;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
 }
 
-.nabvar a:hover {
+.navbar a:hover {
     color: #00abf0;
 }
+
 
 .home {
     height: 100vh;
@@ -58,7 +66,6 @@ h6 {
 
 .home-content {
     max-width: 600px;
-
 }
 
 .home-content h1 {
@@ -78,7 +85,6 @@ h6 {
     justify-content: space-between;
     width: 345px;
     height: 50px;
-
 }
 
 .btn-box a {
@@ -101,13 +107,13 @@ h6 {
 
 .projects {
     padding: 50px 10%;
-    color: #DAFFFB;
 }
 
 .projects h2 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .projects div {
@@ -121,9 +127,12 @@ h6 {
     font-size: 20px;
 }
 
+.projects p{
+    font-weight: bold;
+}
+
 .Tecnologias {
     padding: 50px 10%;
-    color: #DAFFFB;
 }
 
 .Tecnologias h1 {
@@ -146,6 +155,7 @@ h6 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .Tecnologias iframe {
@@ -153,15 +163,20 @@ h6 {
     height: 315px;
 }
 
+.Tecnologias p {
+    font-weight: bold;
+
+}
+
 .contact {
     padding: 50px 10%;
-    color: #DAFFFB;
 }
 
 .contact h2 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
+    
 }
 
 .contact div {
@@ -179,15 +194,17 @@ h6 {
 }
 
 .footer {
-    background-color: #04364A;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
     padding: 20px 10%;
-    color: #DAFFFB;
+    color: #081b29;
 }
 
 .footer h2 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
+    
 }
 
 .footer form {
@@ -197,26 +214,28 @@ h6 {
 
 .footer label {
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .footer input,
-.footer textarea {
+.footer text {
     padding: 10px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .footer input[type="submit"] {
-    background-color: gray;
-    border: 2px solid gray;
+    background-color: #081b29;
+    border: 2px solid #081b29;
     border-radius: 8px;
     font-size: 18px;
     color: #DAFFFB;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .sobremi {
     padding: 50px 10%;
-    color: #DAFFFB;
 }
 
 .sobremi h2 {
@@ -236,4 +255,5 @@ h6 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
+    font-weight: bold;
 }
