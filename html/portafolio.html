@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="../css/stylePortafolio.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html" class="logo">Principal</a>
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#tecnologias">Tecnologías</a>
+            <a href="#ayuda">Ayuda</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hola, mi nombre es Diego Barton</h1>
+            <h3>Estudiante de informática</h3>
+            <h6>Tengo el sueño de seguir creciendo en el mundo de la tecnología
+                como programador.</h6>
+            <div class="btn-box">
+
+                <a href="https://wa.me/+50259605252">Háblame</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="biografia" class="sobremi">
+        <div class="sobremi-content">
+            <div class="sobremi-h2">
+                <h2>Sobre mí</h2>
+            </div>
+        </div>
+        <div>
+            <p>Soy un estudiante del 6to grado del Centro Educativo Técnico Laboral Kinal, me encuentro en el último año
+                de mi carrera <br>
+                como perito en informática, en este ciclo espero alcanzar el nivel necesario de conocimientos para
+                entrar al mundo laboral <br>
+                como informático y poder comenzar la universidad. Me apasiona todo acerca del mundo tecnológico y busco
+                adentrarme más <br>
+                en esta profesión.</p>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <h2>Mis Proyectos</h2>
+        <div>
+            <a href="https://github.com/lmaquin2019274/Proyecto_Fila_1.git">Mizik</a>
+            <p>Fue un proyecto en el que participe, se trata de una aplicacion <br>
+                que funciona como un reproductor de musica</p>
+        </div>
+
+        <div>
+            <a href="https://github.com/dbarton-2019164/ahorcadoHTML.git">Ahorcado</a>
+            <p>Es un juego web de ahorcado que desarrolle el cual funciona como el <br>
+                clasico juego de ahorcado con 7 intentos para descubrir la palabra</p>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="Tecnologias">
+        <h1>Tecnologías que conozco</h1>
+        <DIV>
+            <h2>1.HTML</h2>
+            <h3>¿Qué es HTML?</h3>
+            <p>HTML (Lenguaje de Marcado de Hipertexto) es un estándar fundamental en desarrollo web.
+                Utilizado para estructurar y presentar contenido en páginas web. Consiste en etiquetas
+                que definen elementos como encabezados, párrafos y enlaces. Permite incorporar multimedia
+                y enlazar a otras páginas, facilitando la creación de contenido interactivo y accesible en la web.
+            </p>
+
+        </DIV>
+
+        <DIV>
+            <h2>2.Java</h2>
+            <h3>¿Qué es java?</h3>
+            <p>
+                Java es un lenguaje de programación de alto nivel y orientado a objetos. Con una sintaxis fácil de leer
+                y escribir,
+                se destaca por su portabilidad y capacidad de ejecutarse en diversas plataformas.
+                Ampliamente utilizado en desarrollo de aplicaciones empresariales, Android, y sistemas embebidos.</p>
+        </DIV>
+        <DIV>
+            <h2>3.Mysql</h2>
+            <h3>¿Qué es Mysql?</h3>
+            <p>MySQL es un sistema de gestión de bases de datos relacional (RDBMS) de código abierto. Es ampliamente
+                utilizado para almacenar
+                y gestionar datos en aplicaciones web y empresariales. MySQL utiliza el lenguaje SQL para consultas y
+                ofrece rendimiento,
+                confiabilidad y escalabilidad.</p>
+        </DIV>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+
+        <div>
+            <a href="https://github.com/dbarton-2019164">
+
+                <h4>Github</h4>
+                <img src="img/git.png" alt="github" width="100" height="100">
+            </a>
+        </div>
+
+        <div>
+            <a href="https://wa.me/+50259605252">
+
+                <h4>Whatsapp</h4>
+                <img src="img/whatsapp.jpg" alt="whatsapp" width="100" height="100">
+            </a>
+        </div>
+
+    </section>
+</body>
+
+<footer id="ayuda" class="footer">
+    <h2>Ayuda</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+        <label for="mensaje">Mensaje:</label>
+        <input type="text" id="mensaje" name="mensaje" required>
+        <input type="submit" value="Enviar" onclick="enviarFormulario()">
+    </form>
+</footer>
+<script src="../js/scriptPortafolio.js"></script>
+
+</html>
