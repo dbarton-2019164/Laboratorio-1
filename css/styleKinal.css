@@ -1,0 +1,278 @@
+* {
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../html/img/Kinal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#inicio {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    z-index: 100;
+}
+
+#navbar {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #00abf0;
+}
+
+#image-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-slider img {
+    width: 100%;
+    display: none;
+    margin: 0 auto;
+}
+
+#content {
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+#content h2 {
+    font-size: 60px;
+    color: #142867;
+}
+
+#content p {
+    color: #142867;
+    font-size: 40px;
+}
+
+#cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carta {
+    flex: 1 1 calc(20% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.carta img {
+    width: 100%;
+    height: auto;
+}
+
+.carta h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.carta p {
+    margin: 0 10px 10px;
+    font-weight: bold;
+}
+
+.carta a {
+    display: block;
+    background-color: #142867;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#tarjetas-rellenas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tarjeta-rellena {
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta-rellena h1 {
+    font-size: 3em;
+    margin: 10px 0;
+    color: white;
+}
+
+.tarjeta-rellena p {
+    margin: 0 10px 10px;
+    font-size: 2em;
+    color: white;
+}
+
+
+
+#quienes-somos {
+    text-align: center;
+    margin-top: 50px; 
+  }
+  
+  #quienes-somos-content {
+    text-align: center;
+    padding: 20px;
+   
+  }
+  
+  #quienes-somos-content h2 {
+    font-size: 60px;
+    color: #142867;
+  }
+  
+  #quienes-somos-content p {
+    color: #142867;
+    font-size: 40px;
+  }
+
+  
+#leer-mas-btn {
+    background-color: #142867;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  #modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content {
+    background-color: rgb(212, 212, 212);
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+
+  
+#sponsors {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .sponsors-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .sponsors-container img {
+    width: 150px; 
+    height: 150px;
+    margin: 10px;
+  }
+
+  .sponsors-container img {
+    width: calc(21% - 20px);
+    margin: 10px;
+   
+    border-radius: 50%;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #contacto, #redes-sociales {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #00abf0;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
